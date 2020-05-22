@@ -4,10 +4,3 @@
   become: true
   roles:
     - app
-  # tasks:
-  # - name: Install ruby and rubygems and required packages
-  #   apt: "name={{ item }} state=present"
-  #   with_items:
-  #     - ruby-full
-  #     - ruby-bundler
-  #     - build-essential
