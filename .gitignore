@@ -12,3 +12,11 @@ packer/files/immutable-variables.json
 #ansible
 *.retry
 jdauphant.nginx
+
+# vagrant & molecule
+.vagrant/
+*.log
+*.pyc
+.molecule
+.cache
+.pytest_cache
